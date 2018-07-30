@@ -1,0 +1,98 @@
+body {
+
+    background:url(shopping.jpg);
+    display: flex;
+    justify-content: center;
+}
+.articles
+    {
+        
+        margin-top: 90px;
+        width: 80%;
+        height: 100%;       
+        border-radius: 35px;
+        background: 	#F5F5F5;
+    }
+
+    h2{
+
+        margin-left: 85px;
+        padding-top: 26px;
+        font-family: sans-serif;
+        color: gray;
+
+    }
+    .list1{
+        
+    display: flex;
+    padding-bottom: 35px;
+    border-bottom: 1px solid gray;
+
+    }
+    
+    li{
+        list-style-type: none;
+
+    }
+
+
+    .color{
+
+        text-align: center;
+        color: gray;
+
+
+    }
+    .list2
+    {
+    margin-top: 109px;
+     }
+    .quantity 
+    {
+     margin-left: 40px;
+    margin-top: 110px;
+    }
+
+    .price{
+
+    display: flex;
+    margin-left: 25px;
+    margin-top: 92px;
+    }
+    span
+    {
+        color: red;font-size: 13px;
+    }
+
+    .save
+    {
+        height: 34px;
+        background-color: gray;
+        margin-left: 30px;
+        margin-top: 99px;
+        color: white;
+    }
+    .add
+    {
+    margin-left: 41px;
+    margin-top: 99px;
+    }
+    .fa-remove
+    {
+    font-size: 21px;
+    margin-top: 109px;
+    color: darkgray;
+    }
+    img{
+        margin-left: 30px;
+
+    }
+    .more_btn
+    {
+        background-color: firebrick;
+        color: white;
+        border-radius: 19px;
+        margin-left: 45%;
+        padding: 14px;
+        width: 116px;
+    }

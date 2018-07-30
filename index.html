@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>shopping</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<main class="articles" >
+ <div class="titre" >
+
+    <h2>Shopping online</h2>
+ </div>
+ <div class="desc_articles">
+    <ul class="list1" id="list1">
+        
+           <li>
+               <a href="#" class="delete" onclick="remove(1)"> 
+                    <i class="fa fa-remove" style="font-size:24px"></i>
+
+               </a>
+            </li>
+            <li>
+               <img src="puma1.jpg">
+               
+           </li>
+            <li>
+                 <ul class="list2" > 
+                     <li>Puma Women </li>
+                     <li class="color">Grey </li>
+                    </ul>
+            </li>
+          
+          
+          <li>
+                <input type="number" id="prd1" class="quantity" min="1" max="100">
+          </li>
+
+          <li class="price">
+             <p> Price :</p>
+             <p> <s>400 $</s>
+               <span>(40% OFF)</span>
+               
+                </br>
+                   <strong id="prix1">160 $</strong>
+                </p>
+          </li>
+
+          <button class="save" onclick="calculprice_elem1()">Save</button>
+          <a class="add" href=#>
+                <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                
+          Add to Cart</a>
+          
+    </ul>
+
+
+    <ul class="list1" id="list2">
+        
+            <li>
+                <a href="#" class="delete" onclick="remove(2)"> 
+                     <i class="fa fa-remove" style="font-size:24px"></i>
+ 
+                </a>
+             </li>
+             <li>
+                <img src="puma2.jpg">
+                
+            </li>
+             <li>
+                  <ul class="list2" > 
+                      <li>Puma Women </li>
+                      <li class="color">Blue&Red </li>
+                     </ul>
+             </li>
+           
+           
+           <li>
+                 <input type="number" id="prd2" class="quantity" min="1" max="100">
+           </li>
+ 
+           <li class="price">
+              <p> Price :</p>
+              <p> <s>450 $</s>
+                <span>(40% OFF)</span>
+                
+                 </br>
+                    <strong id="prix2"> 220 $</strong>
+                 </p>
+           </li>
+ 
+           <button class="save" onclick="calculprice_elem2()">Save</button>
+           <a class="add" href=#>
+                 <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                 
+           Add to Cart</a>
+           
+     </ul>
+
+
+     <ul class="list1" id="list3">
+        
+            <li>
+                <a href="#" class="delete" onclick="remove(3)"> 
+                     <i class="fa fa-remove" style="font-size:24px"></i>
+ 
+                </a>
+             </li>
+             <li>
+                <img src="sac_puma.jpg">
+                
+            </li>
+             <li>
+                  <ul class="list2" > 
+                      <li>Sac PUMA </li>
+                      <li class="color">Black </li>
+                     </ul>
+             </li>
+           
+           
+           <li>
+                 <input type="number" id="prd3" class="quantity" min="1" max="100">
+           </li>
+ 
+           <li class="price">
+              <p> Price :</p>
+              <p> <s>170 $</s>
+                <span>(65% OFF)</span>
+                
+                 </br>
+                    <strong id="prix3"> 110 $</strong>
+                 </p>
+           </li>
+ 
+           <button class="save" onclick="calculprice_elem3()">Save</button>
+           <a class="add" href=#>
+                 <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                 
+           Add to Cart</a>
+           
+     </ul>
+
+     <ul class="list1" id="list4">
+        
+            <li>
+                <a href="#" class="delete" onclick="remove(4)"> 
+                     <i class="fa fa-remove" style="font-size:24px"></i>
+ 
+                </a>
+             </li>
+             <li>
+                <img src="sac_puma2.jpg">
+                
+            </li>
+             <li>
+                  <ul class="list2" > 
+                      <li>Sac PUMA </li>
+                      <li class="color">Pink </li>
+                     </ul>
+             </li>
+           
+           
+           <li>
+                 <input type="number" id="prd4" class="quantity" min="1" max="100">
+           </li>
+ 
+           <li class="price">
+              <p> Price :</p>
+              <p> <s>120 $</s>
+                <span>(60% OFF)</span>
+                
+                 </br>
+                    <strong id="prix4"> 72 $</strong>
+                 </p>
+           </li>
+ 
+           <button class="save" onclick="calculprice_elem4()">Save</button>
+           <a class="add" href=#>
+                 <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                 
+           Add to Cart</a>
+           
+     </ul>
+
+     <ul class="list1" id="list5">
+        
+            <li>
+                <a href="#" class="delete" onclick="remove(5)"> 
+                     <i class="fa fa-remove" style="font-size:24px"></i>
+ 
+                </a>
+             </li>
+             <li>
+                <img src="lunette.jpg">
+                
+            </li>
+             <li>
+                  <ul class="list2" > 
+                      <li>Lunette VAST </li>
+                      <li class="color">ROUND_BLACK</br> PURPLE </li>
+                     </ul>
+             </li>
+           
+           
+           <li>
+                 <input type="number" id="prd5" class="quantity" min="1" max="100">
+           </li>
+ 
+           <li class="price">
+              <p> Price :</p>
+              <p> <s>500 $</s>
+                <span>(80% OFF)</span>
+                
+                 </br>
+                    <strong id="prix5"> 400 $</strong>
+                 </p>
+           </li>
+ 
+           <button class="save" onclick="calculprice_elem5()">Save</button>
+           <a class="add" href=#>
+                 <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                 
+           Add to Cart</a>
+
+     </ul>
+        <button class="more_btn" id="more_btn" onclick="show_more()" >Show More</button>
+
+ </div>
+ 
+     <div id="show" hidden>
+      <ul class="list1" id="list6">
+        
+                  <li>
+                      <a href="#" class="delete" onclick="remove(6)"> 
+                           <i class="fa fa-remove" style="font-size:24px"></i>
+       
+                      </a>
+                   </li>
+                   <li>
+                      <img src="lunette1.jpg">
+                      
+                  </li>
+                   <li>
+                        <ul class="list2" > 
+                            <li>Lunette VAST </li>
+                            <li class="color">ROUND_BLACK</br> PURPLE </li>
+                           </ul>
+                   </li>
+                 
+                 
+                 <li>
+                       <input type="number" id="prd6" class="quantity" min="1" max="100">
+                 </li>
+       
+                 <li class="price">
+                    <p> Price :</p>
+                    <p> <s>500 $</s>
+                      <span>(80% OFF)</span>
+                      
+                       </br>
+                          <strong id="prix6"> 400 $</strong>
+                       </p>
+                 </li>
+       
+                 <button class="save" onclick="calculprice_elem6()">Save</button>
+                 <a class="add" href=#>
+                       <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                       
+                 Add to Cart</a>
+                 
+      </ul>
+   </div>
+
+</main>
+
+</body>
+
+<script type="text/javascript" src="shopping.js" ></script>
+ 
+
+</html>
